@@ -23,14 +23,17 @@ To be added:
 * Design some better prompts
 
 ### Configuration
-
+```
 Conda Install
 Issue: ModuleNotFoundError: No module named ‘conda
 Solved by removing system enviroment old python path
+```
 
+```
 Run cmd: anaconda prompt
 conda
 conda --version
+```
 
 To set up the system, first create a new Conda environment using the following command:
 
