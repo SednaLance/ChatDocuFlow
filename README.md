@@ -24,6 +24,14 @@ To be added:
 
 ### Configuration
 
+Conda Install
+Issue: ModuleNotFoundError: No module named ‘conda
+Solved by removing system enviroment old python path
+
+Run cmd: anaconda prompt
+conda
+conda --version
+
 To set up the system, first create a new Conda environment using the following command:
 
 ```
@@ -41,6 +49,9 @@ pip install -r requirements.txt
 Start the system by running the following command (main.py for the command line and app.py for the frontend).
 
 ```
+DLL load failed while importing _swigfaiss: 找不到指定的模块
+pip install faiss-cpu
+
 python main.py --openai_key xxx --language English --system windows
 python app.py --openai_key xxx --language English --system windows
 ```
